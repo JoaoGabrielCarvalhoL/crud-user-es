@@ -1,0 +1,54 @@
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Son Gohan', 'gohan@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Goku', 'goku@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Vegeta', 'vegeta@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Piccolo', 'piccolo@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Trunks', 'trunks@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Goten', 'goten@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Kuririn', 'kuririn@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Yamcha', 'yamcha@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Tenshinhan', 'tens@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Chaos', 'chaos@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Kame', 'kame@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Android 17', 'andr17@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Android 18', 'andr18@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Shenlong', 'shenlong@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Raditz', 'raditz@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Nappa', 'nappa@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Majin Boo', 'majinboo@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Freeza', 'freeza@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Cell', 'cell@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Broly', 'broly@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Dabura', 'dabura@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Spopovich', 'spopovich@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Babidi', 'babidi@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Agumon', 'agumon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Patamon', 'patamon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Greymon', 'greymon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('WarGreymon', 'wargreymon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('MetalGreymon', 'metalgrymon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Palmon', 'palmon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Gabumon', 'gabumon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Garurumon', 'garurumon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('WereGarurumon', 'weregarurumon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('MetalGarurumon', 'metalgarurumon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Angemon', 'angemon@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+INSERT INTO USER (FULL_NAME, EMAIL, CELLPHONE) VALUES ('Joao Gabriel Carvalho', '27.joaogabriel@gmail.com', '14 998045007');
+
+
+
+
+
