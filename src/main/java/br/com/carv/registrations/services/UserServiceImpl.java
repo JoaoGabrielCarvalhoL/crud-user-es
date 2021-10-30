@@ -54,7 +54,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findUserByName(String userName) {
 
-        User user = userRepository.findUserByFullName(userName);
+        User user = userRepository.findByFullName(userName);
 
         if (user == null) {
             throw new ObjectNotFoundException(userName, User.class.getName());
@@ -67,7 +67,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findUserByEmail(String userEmail) {
 
-        User user = userRepository.findUserByEmail(userEmail);
+        User user = userRepository.findByEmail(userEmail);
 
         if (user == null) {
             throw new ObjectNotFoundException(userEmail, User.class.getName());
