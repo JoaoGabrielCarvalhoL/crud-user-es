@@ -1,7 +1,6 @@
 package br.com.carv.registrations.model;
 
 import javax.persistence.*;
-import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
@@ -180,6 +179,26 @@ public class User {
         this.city = city;
     }
 
+    private User(UsBuilder usBuilder) {
+        this.fullName = usBuilder.fullName;
+        this.email = usBuilder.email;
+        this.cellphone = usBuilder.cellphone;
+        this.college = usBuilder.college;
+        this.profession = usBuilder.profession;
+        this.height = usBuilder.height;
+        this.weight = usBuilder.weight;
+        this.hairColor = usBuilder.hairColor;
+        this.street = usBuilder.street;
+        this.district = usBuilder.district;
+        this.numberHouse = usBuilder.numberHouse;
+        this.city = usBuilder.city;
+
+    }
+
+    public static UsBuilder builder() {
+        return new UsBuilder();
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -193,5 +212,110 @@ public class User {
         return Objects.hash(userId);
     }
 
+    public static class UsBuilder {
+        private Long userId;
+        private String fullName;
+        private String email;
+        private String cellphone;
+        private String college;
+        private String profession;
+        private Double height;
+        private Double weight;
+        private String hairColor;
+        private String street;
+        private String district;
+        private String numberHouse;
+        private String city;
+
+        public UsBuilder setUserId(Long userId) {
+            this.userId = userId;
+            return this;
+        }
+
+        public UsBuilder setFullName(String fullName) {
+            this.fullName = fullName;
+            return this;
+        }
+
+        public UsBuilder setEmail(String email) {
+            this.email = email;
+            return this;
+        }
+
+        public UsBuilder setCellphone(String cellphone) {
+            this.cellphone = cellphone;
+            return this;
+        }
+
+        public UsBuilder setCollege(String college) {
+            this.college = college;
+            return this;
+        }
+
+        public UsBuilder setProfession(String profession) {
+            this.profession = profession;
+            return this;
+        }
+
+        public UsBuilder setHeight(Double height) {
+            this.height = height;
+            return this;
+        }
+
+        public UsBuilder setWeight(Double weight) {
+            this.weight = weight;
+            return this;
+        }
+
+        public UsBuilder setHairColor(String hairColor) {
+            this.hairColor = hairColor;
+            return this;
+        }
+
+        public UsBuilder setStreet(String street) {
+            this.street = street;
+            return this;
+        }
+
+        public UsBuilder setDistrict(String district) {
+            this.district = district;
+            return this;
+        }
+
+        public UsBuilder setNumberHouse(String numberHouse) {
+            this.numberHouse = numberHouse;
+            return this;
+        }
+
+        public UsBuilder setCity(String city) {
+            this.city = city;
+            return this;
+        }
+
+        public User createUser() {
+            return new User(userId, fullName, email, cellphone);
+        }
+
+        @Override
+        public String toString() {
+            return "UserBuilder{" +
+                    "userId=" + userId +
+                    ", fullName='" + fullName + '\'' +
+                    ", email='" + email + '\'' +
+                    ", cellphone='" + cellphone + '\'' +
+                    ", college='" + college + '\'' +
+                    ", profession='" + profession + '\'' +
+                    ", height=" + height +
+                    ", weight=" + weight +
+                    ", hairColor='" + hairColor + '\'' +
+                    ", street='" + street + '\'' +
+                    ", district='" + district + '\'' +
+                    ", numberHouse='" + numberHouse + '\'' +
+                    ", city='" + city + '\'' +
+                    '}';
+        }
+
+    }
 
 }
+

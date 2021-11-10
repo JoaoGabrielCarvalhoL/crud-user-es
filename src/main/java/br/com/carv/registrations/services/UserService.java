@@ -27,8 +27,10 @@ public interface UserService {
 
     List<User> findUsersByEmail(String userEmail);
 
-    public void sendEmail(User user);
+    void sendEmail(User user);
 
-    public Page<User> findAllUsersPage();
+     Page<User> findAllUsersPage();
+
+    Page<User> findAllPage(Pageable pageable);
 
 }

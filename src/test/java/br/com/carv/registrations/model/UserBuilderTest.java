@@ -12,20 +12,16 @@ public class UserBuilderTest {
     @Test
     public void testUserBuilder() {
 
-        UserBuilder user = new UserBuilder().setUserId(null).setFullName("Teste 123").setEmail("teste@gmail.com")
-                .setCellphone("123456798");
+        User user = User.builder().setFullName("Teste User Builder").
+                setEmail("teste@gmail.com").
+                setCellphone("1234579").
+                setHairColor("sadasdsad").
+                createUser();
 
-        System.out.println(user);
+        System.out.println(user.getFullName());
     }
 
-    @Test
-    public void testUserBuilder2() {
 
-      Builder user = new Builder().setUserId(null).setFullName("Teste Builder").setEmail("testebuilder@gmail.com")
-                .setCellphone("65487564");
-
-        System.out.println(user);
-    }
 
 
 }

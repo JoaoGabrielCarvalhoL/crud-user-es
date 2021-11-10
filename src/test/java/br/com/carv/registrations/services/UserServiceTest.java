@@ -24,18 +24,22 @@ public class UserServiceTest {
 
     @Test
     public void testFindUserByName() {
+
         User user = new UserBuilder().setUserId(null).setFullName("João Gabriel Carvalho").setEmail("27.joaogabriel@gmai.com").setCellphone("14 998045007").createUser();
         User user2 = new UserBuilder().setUserId(null).setFullName("Carvalho Lopes da Cruz").setEmail("27.joaogabriel@gmai.com").setCellphone("14 998045007").createUser();
+
 
         userRepository.save(user);
         userRepository.save(user2);
 
         List<User> users = userService.findUsersByName("Carvalho");
         Assertions.assertTrue(!users.isEmpty());
+
     }
 
     @Test
     public void testFindUsersByEmail() {
+
         User user = new UserBuilder().setUserId(null).setFullName("Son Gohan").setEmail("gohan.dbz@@gmail.com").setCellphone("14 998045007").createUser();
         User user2 = new UserBuilder().setUserId(null).setFullName("Piccolo").setEmail("piccolo.dbz@gmai.com").setCellphone("14 998045007").createUser();
 
@@ -48,22 +52,25 @@ public class UserServiceTest {
 
     @Test
     public void findUserByName() {
+
         User user = new UserBuilder().setUserId(null).setFullName("Son Gohann").setEmail("gohan.dbz@@gmail.com").setCellphone("14 998045007").createUser();
 
         userRepository.save(user);
 
         User anotherUser = userService.findUserByName("Son Gohann");
         Assertions.assertTrue(user!=null);
+
     }
 
     @Test
     public void findUserByEmail() {
-        User user = new UserBuilder().setUserId(null).setFullName("Son Gohann").setEmail("gohan.dbz.z.@gmail.com").setCellphone("14 998045007").createUser();
 
+        User user = new UserBuilder().setUserId(null).setFullName("Son Gohann").setEmail("gohan.dbz.z.@gmail.com").setCellphone("14 998045007").createUser();
         userRepository.save(user);
 
         User anotherUser = userService.findUserByEmail("gohan.dbz.z.@gmail.com");
         Assertions.assertTrue(user!=null);
+
     }
 
 }
